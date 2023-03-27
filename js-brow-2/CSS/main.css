@@ -1,0 +1,70 @@
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  color-interpolation-filters: #6f3e72;
+}
+
+#form {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 290px;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-block-end: 10px;
+  background: #f5f0f5;
+  color: #fff;
+  border: 1px solid rgb(247, 242, 242);
+  display: block;
+}
+#input {
+  font-size: large;
+  border-radius: 10px;
+  border: 1px solid rgb(247, 242, 242);
+  width: 200px;
+  padding: 10px;
+}
+#addTask {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: large;
+  background: #dba9db;
+  border-radius: 05px;
+  border-color: #dba9db;
+  color: #fff;
+  width: 60px;
+  padding: 10px;
+}
+#list {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 290px;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background: #f5f0f5;
+  color: hsl(0, 100%, 1%);
+  display: block;
+}
+
+#deleteTask {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: large;
+  background: #4d92ec;
+  border-radius: 05px;
+  border-color: #4d92ec;
+  color: #fff;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 150px;
+  padding: 5px;
+}
+
+input:checked + label {
+  color: rgb(57, 159, 187);
+  text-decoration: line-through;
+}
+
+.is-completed {
+  color: rgb(25, 152, 231);
+}
